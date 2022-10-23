@@ -16,3 +16,9 @@ then default values. It is up to us to "cut" the test case, passing more suitabl
 assertEquals(), which takes two parameters. What this method does is check for equality between the parameters, and if these values are not equal, an exception is returned, and the test fails. Look
 that we don't need to use conditional blocks or exception control structures, which makes our test code cleaner and more straightforward.
 </p>
+
+# :page_facing_up: Commit: updated tests
+<p>
+we have a test case for each method of our Calculator class. That's good, but not good enough. We need to create test cases for other situations.
+For example, let's test the behavior of our multiply method for the case of parameters with values negative.
+</p>

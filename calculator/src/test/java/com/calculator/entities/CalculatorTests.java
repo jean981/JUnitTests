@@ -36,6 +36,16 @@ public class CalculatorTests {
         assertEquals(expResult, result, 0);
     }
     @Test
+    public void shouldMultplicateTwoNegativesValues(){
+        int n1 = -2;
+        int n2 = -5;
+        Multiply multiply = new Multiply();
+        double expResult = 10;
+        double result = multiply.totalMultiplier(n1,n2);
+
+        assertEquals(expResult,result,0);
+    }
+    @Test
     public void shouldDivideTwoValues() {
         int n1 = 5;
         int n2 = 2;
@@ -43,6 +53,6 @@ public class CalculatorTests {
         double expResult = 2.5;
         double result = division.totalDivision(n1,n2);
 
-        assertEquals(expResult, result, 0);
+        assertEquals(expResult, result,0);
     }
-    }
+}

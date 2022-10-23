@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f92b071f-80fa-4810-a0e3-28429896c3fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explaination.md" beforeDir="false" afterPath="$PROJECT_DIR$/explaination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Subtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculator/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculator/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculator/entities/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculator/entities/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculator/entities/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculator/entities/Multiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculator/entities/Subtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculator/entities/Subtract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculator/entities/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculator/entities/Sum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +72,7 @@
       <recent name="com.calculator.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTests.shouldSumTwoValues">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.calculator.Application" />
       <module name="calculator" />
@@ -88,6 +99,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTests.shouldDivideTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.calculator.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.calculator.entities.CalculatorTests" />
+      <option name="METHOD_NAME" value="shouldDivideTwoValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTests.shouldMultiplicateTwoNegativesValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.calculator.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.calculator.entities.CalculatorTests" />
+      <option name="METHOD_NAME" value="shouldMultiplicateTwoNegativesValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTests.shouldSumTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
@@ -106,8 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTests.shouldSumTwoValues" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.CalculatorTests.shouldMultiplicateTwoNegativesValues" />
+        <item itemvalue="JUnit.CalculatorTests.shouldDivideTwoValues" />
+        <item itemvalue="JUnit.CalculatorTests.shouldSumTwoValues" />
         <item itemvalue="Application.CalculatorTests" />
       </list>
     </recent_temporary>
