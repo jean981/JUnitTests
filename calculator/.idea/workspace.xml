@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92b071f-80fa-4810-a0e3-28429896c3fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Subtract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explaination.md" beforeDir="false" afterPath="$PROJECT_DIR$/explaination.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +61,7 @@
       <recent name="com.calculator.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.CalculatorTests.shouldSumTwoValues">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.calculator.Application" />
       <module name="calculator" />
@@ -113,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.CalculatorTests.shouldSumTwoValues" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.CalculatorTests" />
       </list>
     </recent_temporary>
