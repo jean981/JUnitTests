@@ -1,20 +1,19 @@
 package com.calculator.entities;
 
+import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
 public class CalculatorTests {
-    public static void main(String[] args) {
-        Sum sum = new Sum();
-            int x = 5;
-            int y = 6;
+        @Test
+        public void shouldSumTwoValues(){
+            int a = 0;
+            int b = 0;
+            Sum sum = new Sum();
+            double expectedResult = 0.0;
+            double result = sum.totalSum(a, b);
 
-            int result = sum.totalSum(x, y);
-            if(result == 11){
-                System.out.println("Correct Answer!");
-            }
-            else{
-                System.out.println("Sory,try Again!");
-            }
-
-
-
+            assertEquals(expectedResult,result);
+            fail("The test is a prototype.");
+        }
     }
-}

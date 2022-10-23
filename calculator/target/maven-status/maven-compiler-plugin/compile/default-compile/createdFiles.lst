@@ -1,0 +1,5 @@
+com\calculator\Application.class
+com\calculator\entities\Division.class
+com\calculator\entities\Subtract.class
+com\calculator\entities\Multiply.class
+com\calculator\entities\Sum.class

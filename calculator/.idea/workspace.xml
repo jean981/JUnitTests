@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92b071f-80fa-4810-a0e3-28429896c3fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/explaination.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/calculator/entities/Subtract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explaination.md" beforeDir="false" afterPath="$PROJECT_DIR$/explaination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculator/entities/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/calculator/entities/CalculatorTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +24,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2GVqdvplR82vtUgCMx3EDiPdKzr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,8 +64,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.calculator.entities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.calculator.entities" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorTests">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.calculator.Application" />
       <module name="calculator" />
@@ -76,10 +95,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTests.shouldSumTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.calculator.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.calculator.entities.CalculatorTests" />
+      <option name="METHOD_NAME" value="shouldSumTwoValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorTests" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.CalculatorTests.shouldSumTwoValues" />
+        <item itemvalue="Application.CalculatorTests" />
       </list>
     </recent_temporary>
   </component>
